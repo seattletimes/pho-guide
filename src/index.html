@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <%= t.include("partials/_head.html") %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <div class="container">
+        <div class="subhed">&mdash; Basic ingredients &mdash;</div>
+        <% json.ingredients.forEach(function(i) {
+          if (i.category == "basics") { %>
+            <div class="card">
+              <div class="outer-img">
+                <div class="name"><%= i.name %></div>
+                <img src="./assets/<%= i.image %>.jpg">
+              </div>
+              <div class="vietnamese"><%= i.vietnamese %></div>
+              <div class="description"><%= i.description %></div>
+            </div>
+          <% }
+        }); %>
+
+        <div class="subhed">&mdash; Add-ons &mdash;</div>
+        <% json.ingredients.forEach(function(i) {
+          if (i.category == "addons") { %>
+            <div class="card">
+              <div class="outer-img">
+                <div class="name"><%= i.name %></div>
+                <img src="./assets/<%= i.image %>.jpg">
+              </div>
+              <div class="vietnamese"><%= i.vietnamese %></div>
+              <div class="description"><%= i.description %></div>
+            </div>
+          <% }
+        }); %>
+
+        <div class="subhed">&mdash; Sauces &mdash;</div>
+        <% json.ingredients.forEach(function(i) {
+          if (i.category == "sauces") { %>
+            <div class="card">
+              <div class="outer-img">
+                <div class="name"><%= i.name %></div>
+                <img src="./assets/<%= i.image %>.jpg">
+              </div>
+              <div class="description"><%= i.description %></div>
+            </div>
+          <% }
+        }); %>
+      </div>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "what-the-pho"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "assets/social.jpg",
+  "sheets": ["12o2EiDa4ynTwDrpTVYn6tp2CFcNz81hXfYQtm-2wXUE"],
+  "production": false,
+  "embedded": true
+}
