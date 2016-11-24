@@ -3,6 +3,7 @@
   <head>
     <%= t.include("partials/_head.html") %>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
 
@@ -16,7 +17,7 @@
                 <div class="name"><%= i.name %></div>
                 <img src="./assets/<%= i.image %>.jpg">
               </div>
-              <div class="vietnamese"><%= i.vietnamese %></div>
+              <div class="vietnamese"><%= i.vietnamese %> <i class="listen fa fa-volume-up" data-word="<%= i.pronunciation%>"></i><audio id="<%= i.pronunciation%>" src="./assets/sound/<%= i.pronunciation%>.mp3"></audio></div>
               <div class="description"><%= i.description %></div>
             </div>
           <% }
@@ -30,7 +31,7 @@
                 <div class="name"><%= i.name %></div>
                 <img src="./assets/<%= i.image %>.jpg">
               </div>
-              <div class="vietnamese"><%= i.vietnamese %></div>
+              <div class="vietnamese"><%= i.vietnamese %> <i class="listen fa fa-volume-up" data-word="<%= i.pronunciation%>"></i><audio id="<%= i.pronunciation%>" src="./assets/sound/<%= i.pronunciation%>.mp3"></audio></div>
               <div class="description"><%= i.description %></div>
             </div>
           <% }

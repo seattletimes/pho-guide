@@ -4,133 +4,152 @@
     "name": "Broth",
     "vietnamese": "nước lèo",
     "description": "A bone broth simmered with onions and aromatics (cinnamon, ginger, anise, cardamom) for 10 hours before serving. This has existed since long before bone broth became “trendy” in the states.",
-    "image": "broth"
+    "image": "broth",
+    "pronunciation": "Broth"
   },
   {
     "category": "basics",
     "name": "Noodles",
     "vietnamese": "bánh phở",
     "description": "The quintessential thin rice noodles that make a pho dish pho.",
-    "image": "noodles"
+    "image": "noodles",
+    "pronunciation": "Noodles"
   },
   {
     "category": "basics",
     "name": "Brisket",
     "vietnamese": "thịt chín nạm",
     "description": "Roast beef, cooked in the bone broth during the broth-making process. Pro tip: You can request lean or fatty (gầu) cuts of brisket at most restaurants.",
-    "image": "brisket"
+    "image": "brisket",
+    "pronunciation": "Brisket"
   },
   {
     "category": "basics",
     "name": "Steak",
     "vietnamese": "thịt tái",
     "description": "Rare cut of beef that’s placed in the pho bowl just before serving. More tender than eye-round steak, which is a popular ingredient at other restaurants.",
-    "image": "steak"
+    "image": "steak",
+    "pronunciation": "Steak"
   },
   {
     "category": "basics",
     "name": "Tripe",
     "vietnamese": "sách",
     "description": "Adds a rubbery, chewy texture.",
-    "image": "tripe"
+    "image": "tripe",
+    "pronunciation": "Tripe"
   },
   {
     "category": "basics",
     "name": "Meatballs",
     "vietnamese": "bò viên",
     "description": "Made from a mixture of ground beef and tendon. More chewy than Italian meatballs.",
-    "image": "meatballs"
+    "image": "meatballs",
+    "pronunciation": "Meatballs"
   },
   {
     "category": "basics",
     "name": "Tendon",
     "vietnamese": "gân",
     "description": "Adds flavor and a gelatinous texture to the dish, similar to that of tapioca balls.",
-    "image": "tendon"
+    "image": "tendon",
+    "pronunciation": "Tendon"
   },
   {
     "category": "basics",
     "name": "Chicken",
     "vietnamese": "gà",
     "description": "Boiled strips of chicken breast. Other restaurants may have shredded chicken meat.",
-    "image": "chicken"
+    "image": "chicken",
+    "pronunciation": "Chicken"
   },
   {
     "category": "basics",
     "name": "Prawns",
     "vietnamese": "tôm",
     "description": "For those who prefer seafood to beef. Veggie broth may be available upon request (at Pho Bac’s Denny Triangle location, for example).",
-    "image": "prawns"
+    "image": "prawns",
+    "pronunciation": "Prawns"
   },
   {
     "category": "basics",
     "name": "Veggies",
     "vietnamese": "chay",
     "description": "For the plant-inclined. Veggie broth may be available upon request (at Pho Bac’s Denny Triangle location, for example).",
-    "image": "veggies"
+    "image": "veggies",
+    "pronunciation": "Veggies"
   },
   {
     "category": "addons",
     "name": "Thai basil",
     "vietnamese": "qúe",
     "description": "Tear off the leaves and add them to the dish, to your taste. This typically comes on the side with the pho dish.",
-    "image": "basil"
+    "image": "basil",
+    "pronunciation": "ThaiBasil"
   },
   {
     "category": "addons",
     "name": "Bean sprouts",
     "vietnamese": "giá",
     "description": "Add more texture than flavor, and the earlier/longer you leave them in your pho broth, the softer they’ll get. These typically come on the side with the pho dish.",
-    "image": "sprouts"
+    "image": "sprouts",
+    "pronunciation": "BeanSprouts"
   },
   {
     "category": "addons",
     "name": "Lime wedges",
     "vietnamese": "chanh",
     "description": "Squeeze some lime juice into your broth to add tartness. These typically come on the side with the pho dish.",
-    "image": "lime"
+    "image": "lime",
+    "pronunciation": "Lime"
   },
   {
     "category": "addons",
     "name": "Jalapeno peppers",
     "vietnamese": "ớt xanh",
     "description": "A substitute for the Thai chili peppers traditionally used in pho, which weren’t available at the time Pho Bac opened.",
-    "image": "jalapeno"
+    "image": "jalapeno",
+    "pronunciation": "JalapenoPeppers"
   },
   {
     "category": "addons",
     "name": "Fried shallots",
     "vietnamese": "hành phi",
     "description": "Crispy and flavorful. Can be used to garnish the pho. Available upon request.",
-    "image": "shallots"
+    "image": "shallots",
+    "pronunciation": "FriedShallots"
   },
   {
     "category": "addons",
     "name": "Sliced onions",
     "vietnamese": "hành giấm",
     "description": "In vinegar-sugar mixture. Add for a sweet-tart taste. Available upon request.",
-    "image": "onions"
+    "image": "onions",
+    "pronunciation": "SlicedOnions"
   },
   {
     "category": "addons",
     "name": "Cilantro",
     "vietnamese": "hành ngò",
     "description": "With onions and green onions. Add to your taste. Available upon request.",
-    "image": "cilantro"
+    "image": "cilantro",
+    "pronunciation": "Cilantro"
   },
   {
     "category": "addons",
     "name": "Fatty broth",
     "vietnamese": "nước béo hành trận",
-    "description": "A gloriously flavorful dish of fat from the broth and green onions. Available upon request.",
-    "image": "fatty"
+    "description": "A gloriously flavorful dish of fat from the broth with green onions. The onions are often put in the pho dish, while hoisin and sriracha can be added to the fatty broth for a meat dip.",
+    "image": "fatty",
+    "pronunciation": "FattyBroth"
   },
   {
     "category": "addons",
     "name": "Chinese donut",
     "vietnamese": "bánh dầu cháo quẩy",
     "description": "Offered at Pho Bac as an optional go-along with your pho. Eat it separately, or dip in the broth. Another popular pho restaurant offering is the cream puff, or banh su, a Vietnamese dessert with French origins.",
-    "image": "donut"
+    "image": "donut",
+    "pronunciation": "ChineseDonut"
   },
   {
     "category": "sauces",
