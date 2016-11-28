@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2016/food/pho-guide"
     }
   },
   "title": "",
@@ -16,6 +16,6 @@
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["12o2EiDa4ynTwDrpTVYn6tp2CFcNz81hXfYQtm-2wXUE"],
-  "production": false,
+  "production": true,
   "embedded": true
 }
